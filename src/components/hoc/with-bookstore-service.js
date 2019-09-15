@@ -9,6 +9,7 @@ const withBookstoreService = () => (Wrapped) => {
         {
           (bookstoreService) => {
             return (<Wrapped {...props}
+                      two={'****************'}
                      bookstoreService={bookstoreService}/>);
           }
         }

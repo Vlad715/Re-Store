@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div>
       <BookList />
-      <ShoppingCartTable />
+      <ShoppingCartTable one={'hdhdhdh'}/>
     </div>
   );
 };
