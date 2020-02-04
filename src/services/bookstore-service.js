@@ -1,19 +1,21 @@
+import imgHarryPotter from './HarryPotter.jpg';
+import imgGameOfThrones from './Game of Thrones.jpg';
 
 export default class BookstoreService {
 
   data = [
     {
       id: 1,
-      title: 'Production-Ready Microservices',
-      author: 'Susan J. Fowler',
-      price: 32,
-      coverImage: 'https://images-na.ssl-images-amazon.com/images/I/41yJ75gpV-L._SX381_BO1,204,203,200_.jpg'},
+      title: 'Harry Potter And The Sorcerer\'s Stone',
+      author: 'J.K. Rowling',
+      price: 25,
+      coverImage: imgHarryPotter},
     {
       id: 2,
-      title: 'Release It!',
-      author: 'Michael T. Nygard',
-      price: 45,
-      coverImage: 'https://images-na.ssl-images-amazon.com/images/I/414CRjLjwgL._SX403_BO1,204,203,200_.jpg'}
+      title: 'A Dance with Dragons (A Song of Ice and Fire, Book 5)',
+      author: 'George R. R. Martin',
+      price: 20,
+      coverImage: imgGameOfThrones}
   ];
 
   getBooks() {
